@@ -164,7 +164,7 @@ if __name__ == "__main__":
     parser.add_argument('--datasets', nargs='+', type=str, default=DATASETS)
     parser.add_argument('--algorithms', nargs='+', type=str, default=ALGORITHMS)
     parser.add_argument('--output_dir', type=str, default='../sweep')
-    parser.add_argument('--data_dir', type=str, default="")
+    parser.add_argument('--data_dir', type=str, default="datadir/")
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--steps', type=int, default=None)
     parser.add_argument('--holdout_fraction', type=float, default=0.2)

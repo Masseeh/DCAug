@@ -108,7 +108,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="run seeds")
     parser.add_argument("name", type=str)
     parser.add_argument("configs", nargs="*")
-    parser.add_argument("--data_dir", type=str, default="/home/ens/AP27660/dataset")
+    parser.add_argument("--data_dir", type=str, default="datadir/")
     parser.add_argument("--log_dir", type=str, default="train_output")
     parser.add_argument("--dataset", type=str, default="PACS")
     parser.add_argument("--algorithm", type=str, default="AdvAugBaseline")
