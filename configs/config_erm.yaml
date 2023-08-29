@@ -1,0 +1,66 @@
+############## PACS ##############
+PACS0: 
+  lr: 3e-5
+  resnet_dropout: 0.0
+  weight_decay: 1e-06
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0
+PACS1: 
+  lr: 5e-5
+  resnet_dropout: 0.5
+  weight_decay: 1e-04
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0
+PACS2: 
+  lr: 5e-5
+  resnet_dropout: 0.5
+  weight_decay: 1e-04
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0
+PACS3: 
+  lr: 3e-5
+  resnet_dropout: 0.5
+  weight_decay: 1e-06
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0
+############## VLCS ##############
+VLCS0: 
+  lr: 3e-5
+  resnet_dropout: 0.0
+  weight_decay: 1e-06
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0
+VLCS1: 
+  lr: 5e-5
+  resnet_dropout: 0.5
+  weight_decay: 1e-04
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0
+VLCS2: 
+  lr: 5e-5
+  resnet_dropout: 0.5
+  weight_decay: 1e-04
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0
+VLCS3: 
+  lr: 3e-5
+  resnet_dropout: 0.5
+  weight_decay: 1e-06
+  data_augmentation: "aug"
+  da_mode: "append"
+  resnet18: False
+  num_ops: 0

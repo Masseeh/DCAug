@@ -1,0 +1,5 @@
+scheduler: const
+swad: ""
+test_batchsize: 128
+indomain_test: False  # use indomain test split or not
+domain_eval: False
