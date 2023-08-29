@@ -88,9 +88,3 @@ do
 python train_seed.py ta_wider configs/config_erm_ta.yaml  --algorithm "ERM" --dataset DomainNet --test_envs $test_envs --deterministic --trials 3 --auto_da "uniform" --tf_range "wider" --da_mode "online"
 done
 ```
-
-## License
-
-This source code is released under the MIT license, included [here](./LICENSE).
-
-This project includes some code from [DomainBed](https://github.com/facebookresearch/DomainBed/tree/3fe9d7bb4bc14777a42b3a9be8dd887e709ec414) and [SWAD](https://github.com/khanrc/swad), also MIT licensed.
