@@ -1,4 +1,6 @@
-# Domain Generalization by Rejecting Extreme Augmentations
+# Domain Generalization by Rejecting Extreme Augmentations (Accepted at WACV 2024)
+
+Official PyTorch implementation of [Domain Generalization by Rejecting Extreme Augmentations](https://arxiv.org/pdf/2310.06670.pdf).
 
 ## Preparation
 
@@ -29,7 +31,7 @@ PIL: 9.4.0
 
 ## How to Run
 
-`train_all.py` script conducts a leave-one-out cross-validations for a given target domain.
+`train_all.py` script conducts a leave-one-out cross-validation for a given target domain.
 
 ```sh
 python train_all.py exp_name --dataset PACS --test_envs target_domain --data_dir /my/datasets/path
