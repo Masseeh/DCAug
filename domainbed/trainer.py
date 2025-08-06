@@ -209,7 +209,7 @@ def train(test_envs, args, hparams, n_steps, checkpoint_freq, logger, writer, ta
             swad_algorithm.update_parameters(algorithm, step=step)
 
         [scheduler.step() for scheduler in schedulers]
-        algorithm.step(step)
+        # algorithm.step(step)
 
         if step % checkpoint_freq == 0 or stopper.possible_stop or step == n_steps - 1:
             results = {
